@@ -4,5 +4,5 @@ export default {
   project: "selenium-project",
   token: process.env.LEVEL_CI_TOKEN,
   server: "https://staging.uw.ci.levelaccess.io/",
-  reportPaths: ["./level-ci-reports"],
+  reportPaths: ["./level-ci/level-ci-reports"],
 } satisfies Config;

@@ -1,8 +1,8 @@
 import type { Config } from "@level-ci/cli";
 export default {
-  organization: "ivan-haliurov-levelaccess-com-hspeq",
-  project: "demo-selenium-project",
+  organization: "level-ci-3110066591488590-levelaccess-com-wbssc",
+  project: "selenium-project",
   token: process.env.LEVEL_CI_TOKEN,
-  server: "https://api.dev.userway.dev",
+  server: "https://staging.uw.ci.levelaccess.io/",
   reportPaths: ["./level-ci-reports"],
 } satisfies Config;

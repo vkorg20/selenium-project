@@ -52,7 +52,6 @@ jobs:
           secondary_repository_key: selenium-project-525d
           branch: main
           commit_hash: ${{ github.sha }}
-        with:
           config_path: "./level-ci/level-ci.config.ts"
         env:
           LEVEL_CI_TOKEN: ${{ secrets.LEVEL_CI_TOKEN }}
